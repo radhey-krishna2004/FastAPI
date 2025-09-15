@@ -10,7 +10,7 @@ def load_data():
 
     return data
 
-
+# this is commit for chech git
 @app.get("/")
 def hello():
     return {'message':'Patient Management System API'}
